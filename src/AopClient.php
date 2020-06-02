@@ -1,6 +1,6 @@
 <?php
 namespace Alipay;
-
+use Exception;
 class AopClient
 {
     //应用ID
