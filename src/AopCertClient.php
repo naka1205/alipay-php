@@ -1,6 +1,6 @@
 <?php
 namespace Alipay;
-
+use Exception;
 class AopCertClient
 {
     //应用证书地址

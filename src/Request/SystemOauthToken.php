@@ -1,11 +1,7 @@
 <?php
-/**
- * ALIPAY API: alipay.system.oauth.token request
- *
- * @author auto create
- * @since 1.0, 2019-07-03 12:05:01
- */
-class AlipaySystemOauthTokenRequest
+namespace Alipay\Request;
+
+class SystemOauthToken
 {
 	/** 
 	 * 授权码，用户对应用授权后得到。
