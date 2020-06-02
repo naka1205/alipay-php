@@ -1,0 +1,21 @@
+{
+    "name": "naka1205/alipay-php",
+    "description": "Alipay SDK For PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "naka1205",
+            "email": "171453643@qq.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alipay\\": "src/"
+        },
+        "files": ["src/functions.php"]
+    }
+}
