@@ -10,6 +10,7 @@ $auth_code = $_GET['auth_code'];
 $config = [
     'appid'       =>  'app_id',
     'gateway'     =>  'https://openapi.alipay.com/gateway.do',
+    'type'        =>  'sign_type',
     'public'      =>  'public_key',
     'private'     =>  'private_key'
 ];

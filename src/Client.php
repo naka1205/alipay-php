@@ -14,6 +14,7 @@ class Client
 		$aop->appId = $config['appid'];
 		$aop->rsaPrivateKey = $config['private'];
         $aop->alipayrsaPublicKey= $config['public'];
+        $aop->signType = $config['type'];
         
         $this->aop = $aop;
     }
