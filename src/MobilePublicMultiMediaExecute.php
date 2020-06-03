@@ -1,7 +1,7 @@
 <?php
 namespace Alipay;
 
-class AlipayMobilePublicMultiMediaExecute
+class MobilePublicMultiMediaExecute
 {
 
     private $code = 200;

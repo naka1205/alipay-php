@@ -1,7 +1,7 @@
 <?php
 namespace Alipay;
 
-class AlipayMobilePublicMultiMediaClient
+class MobilePublicMultiMediaClient
 {
     private $DEFAULT_CHARSET = 'UTF-8';
     private $METHOD_POST = "POST";
@@ -98,7 +98,7 @@ class AlipayMobilePublicMultiMediaClient
      */
     public function execute($header = '', $body = '', $httpCode = '')
     {
-        $exe = new AlipayMobilePublicMultiMediaExecute($header, $body, $httpCode);
+        $exe = new MobilePublicMultiMediaExecute($header, $body, $httpCode);
         return $exe;
     }
 

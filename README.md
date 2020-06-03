@@ -4,7 +4,7 @@
 ### 用户授权
 ```php
 
-...
+use Alipay\Client;
 
 $auth_code = $_GET['auth_code'];
 $config = [
