@@ -34,7 +34,7 @@ class Client
 
     protected function getResponse($request, $authToken = null, $appInfoAuthtoken = null, $targetAppId = null){
 
-        $response = $this->aop->execute ($request ,$authToken = null, $appInfoAuthtoken = null, $targetAppId = null); 
+        $response = $this->aop->execute ($request ,$authToken, $appInfoAuthtoken, $targetAppId); 
 		$data = object2array($response);
 
         $key = str_replace(".", "_", $request->getApiMethodName()) . "_response";
