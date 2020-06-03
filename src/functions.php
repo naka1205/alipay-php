@@ -180,6 +180,18 @@ function array2string($array)
     return implode(',', $string);
 }
 
+function object2array($array) 
+{  
+  if (is_object($array)) {  
+    $array = (array)$array;  
+  } 
+  if (is_array($array)) {  
+    foreach ($array as $key=>$value) {  
+      $array[$key] = object_array($value);  
+    }  
+  }  
+  return $array;  
+}
 /**
  * 向上构造证书链
  * @param $subjectMap 主题和证书的映射
