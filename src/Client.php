@@ -15,7 +15,7 @@ class Client
 		$aop->rsaPrivateKey = $config['private'];
         $aop->alipayrsaPublicKey= $config['public'];
         
-        $this->$aop = $aop;
+        $this->aop = $aop;
     }
     
     public function getToken($code){
